@@ -170,7 +170,7 @@ label{
 }
 
 .frontpage-content{
-	/*margin-top:680px;*/
+	margin-top:680px;
 	background-color: transparent;
 	padding: 0 20px;
 	display: flex;
@@ -233,7 +233,7 @@ label{
 }
 
 #main{
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 }
 
 .post-title{
@@ -540,7 +540,7 @@ label{
 	}
 
 	.frontpage-content{
-		margin-top:360px;
+		margin-top:230px;
 	}
 
 
