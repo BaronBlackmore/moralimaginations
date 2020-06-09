@@ -50,8 +50,26 @@ html{
 	scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'kommon_grotesk_condensedSBd';
+    src: url('/fonts/kommon_grotesk_con_semibold-webfont.woff2') format('woff2'),
+         url('/fonts/kommon_grotesk_con_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'kommon_grotesk_condensenormal';
+    src: url('kommon_grotesk_con_normal-webfont.woff2') format('woff2'),
+         url('kommon_grotesk_con_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'kommon_grotesk_condensenormal', Tahoma, Geneva, sans-serif;
 	letter-spacing: 0em;
 	line-height: 1.7em;
 	font-size: 1.1em;
@@ -64,18 +82,12 @@ body{
 	background-attachment: fixed;
 }
 
-@font-face {
-    font-family: 'kommon_grotesk_condensedSBd';
-    src: url('/fonts/kommon_grotesk_con_semibold-webfont.woff2') format('woff2'),
-         url('/fonts/kommon_grotesk_con_semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 h1{
 	font-size: 6em;
 	color: white;
-	font-family: 'kommon_grotesk_condensedSBd';
+	font-family: 'kommon_grotesk_condensedSBd', Tahoma, Geneva, sans-serif;
 	text-align: center;
 	line-height: 1;
 	text-transform: uppercase;
