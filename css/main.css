@@ -61,18 +61,20 @@ body{
 }
 
 @font-face {
-    font-family: 'kommon_grotesksemibold';
-    src: url('/fonts/kommon_grotesk_semibold-webfont.woff2') format('woff2'),
-         url('/fonts/kommon_grotesk_semibold-webfont.woff') format('woff');
+    font-family: 'kommon_grotesk_condensedSBd';
+    src: url('kommon_grotesk_con_semibold-webfont.woff2') format('woff2'),
+         url('kommon_grotesk_con_semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 h1{
-	font-size: 4.209em;
+	font-size: 6em;
 	color: white;
-	font-family: 'kommon_grotesksemibold';
+	font-family: 'kommon_grotesk_condensedSBd';
 	text-align: center;
+	line-height: 1;
+	text-transform: uppercase;
 }
 
 
@@ -454,6 +456,10 @@ label{
 	}
 
 @media(max-width: 660px){
+
+	h1{
+		font-size: 3em;
+	}
 
 	.hamburger-icon{
 		display: flex;
