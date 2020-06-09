@@ -51,13 +51,13 @@ html{
 }
 
 body{
-	font-family: Georgia, serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	letter-spacing: 0em;
 	line-height: 1.7em;
 	font-size: 1.1em;
 	color: #292929;
 	/*min-height: 100vh;*/
-	background-color: #0d0f27;
+	background-color: #131012;
 }
 
 @font-face {
@@ -73,6 +73,7 @@ h1{
 	color: white;
 	font-family: 'kommon_grotesk_condensedSBd';
 	text-align: center;
+	font-weight: bold;
 	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: -0.04em;
@@ -156,7 +157,8 @@ label{
 	background-image: url("/images/hero-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	background-attachment: fixed;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
 }
