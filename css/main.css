@@ -190,6 +190,10 @@ label{
 	text-align: center;
 }
 
+.frontpage-title{
+	padding-bottom: 12em;
+}
+
 .frontpage-content img{
 	width: 100%;
 }
@@ -235,6 +239,7 @@ label{
 
 .foot img{
 	height: 36px;
+	padding:10px;
 }
 
 .contact-info{
