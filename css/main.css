@@ -250,14 +250,6 @@ label{
 	text-align: center;
 }
 
-.post-body{
-	/*text-align: justify;*/
-}
-
-#main{
-	/*min-height: 100vh;*/
-}
-
 .post-title{
 	display: flex;
 	flex-direction: row;
